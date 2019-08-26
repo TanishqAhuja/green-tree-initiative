@@ -167,3 +167,78 @@ body {
     }
 
 }
+
+@media (max-width: 768px) {
+    .header .children {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        height: 18vh;
+    }
+
+    .logo {
+        grid-area: 1/1/2/2;
+        align-self: flex-end;
+    }
+
+    .menu {
+        grid-area: 2/1/3/2;
+        grid-template-columns: 1fr 0.5fr 1fr 0.5fr 2fr;
+    }
+    .about {
+        grid-column: 1/2;
+    }
+    .stories {
+        grid-column: 3/4;
+    }
+    .news {
+        grid-column: 5/6;
+    }
+
+    .donate-btn {
+        grid-area: 1/2/3/3;
+        text-align: end;
+    }
+    .donate-btn > button {
+        width: 140px;
+        font-size: 0.95em;
+    }
+
+    .parent {
+        background: transparent url("../Images/home-T-1.png") 0% 0% no-repeat padding-box;
+        background-size: 100% 100%;
+    }
+    .parent .children {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .child-2 {
+        grid-row: 1/2;
+        margin: 0;
+    }
+
+    .child-1 {
+        grid-row: 2/3;
+        padding-bottom: 3em;
+    }
+
+    .slogan {
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+
+    .issue {
+        margin: auto;
+    }
+
+    .message-text {
+        font-size: 1.8em;
+    }
+    .message-link {
+        font-size: 0.8em;
+        padding-bottom: 1em;
+    }
+}
