@@ -1,0 +1,15 @@
+issue
+/* margin: 18vh 9.375vw 18vh 11.125vw; */
+
+msg>p
+* padding: 2.5vh 3vw 2vh 3vw; */
+/* margin-bottom: 18px; */
+
+msg>a
+    margin: 5vh 3vw 7vh 3vw;
+
+
+menu {
+    grid-auto-flow: column;
+        align-items: center;
+}
