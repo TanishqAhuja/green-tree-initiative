@@ -78,3 +78,92 @@ body {
     text-align: left;
 }
 
+@media (max-width: 1440px) {
+    .header .children {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        height: 18vh;
+    }
+
+    .logo {
+        font-size: 1.25em;
+        /* grid-column: 1/2;
+        grid-row: 1/2; */
+    }
+
+    .menu {
+        /* grid-column: 2/3;
+        grid-row:  1/2; */
+        grid-template-columns: 0.28fr 0.07875fr 0.16125fr 0.09625fr 0.14375fr 0.15125fr 0.08875fr; 
+        justify-content: space-evenly;
+    }
+    .about {
+        grid-column: 2/3; 
+    }
+    .stories {
+        grid-column: 4/5;
+    }
+    .news {
+        grid-column: 6/7;
+    }
+
+    .donate-btn {
+        /* grid-column: 3/4;
+        grid-row: 1/2; */
+    }
+    .donate-btn > button {
+        width: 100%;
+        padding: 13px;
+        font-size: 1em;
+    }
+
+    .parent {
+        background: transparent url("../Images/home-D-1.png") 0% 0% no-repeat padding-box;
+        background-size: 100% 100%;
+        height: 82vh;
+        width: 98.85vw;
+    } 
+    
+    .parent .children {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        align-items: center; 
+        height: 100%;     
+    }
+
+    .child-2 {
+        margin: 0 22em 8.5em 0;
+    }
+
+    .issue {
+        margin-right: 5.25em;
+    }
+    
+    .issue-head {
+        height: 5vh;
+        width: 9.5em;
+        left: 3.6em;
+        top: -2.5vh;
+        font-size: 0.85em;
+    }
+
+    .message {
+        padding: 1em 3em 0 3em;
+    }
+    .message-text {
+        font-size: 2.3em;
+    }
+    .message-link {
+        font-size: 0.85em;
+    }
+
+    .slogan {
+        align-content: flex-start;
+        font-size: 3.5em;
+    }
+
+}
