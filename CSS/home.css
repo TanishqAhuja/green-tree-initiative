@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "flood-std";
+    src: url("../Fonts/FloodStd.otf") format("opentype");             
+}
+
+.children {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    color: #354463;
+    font-family: Helvetica; 
+}
+
+.logo {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.menu {
+    width: 100%;
+    display: grid;
+    font-size: 0.95em;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+.donate-btn {
+    white-space: nowrap;
+}
+.donate-btn > button {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    border: none;
+    font-weight: bold;
+}
+
+.parent {
+    opacity: 0.76;
+}
+
+.issue {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #354463;}
+.issue-head {
+    background: #354463;
+    color: #FFFFFF;
+    position: absolute;
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.message-text {
+    text-align: left;
+    font-weight: bold;
+}
+.message-link {
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: underline;
+    padding-bottom: 4em;
+}
+
+.slogan {
+    font-family: flood-std, sans-serif;
+    color: #FFFFFF;
+    text-align: left;
+}
+
