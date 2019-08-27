@@ -27,12 +27,17 @@ body {
     font-weight: lighter;
     white-space: nowrap;
 }
+.menu-option > a {
+    text-decoration: none;
+    color: #354463;
+}
 
 .donate-btn {
     white-space: nowrap;
 }
 .donate-btn > button {
     background: #C1F7D5 0% 0% no-repeat padding-box;
+    color: #354463;
     border-radius: 100px;
     opacity: 1;
     border: none;
@@ -40,6 +45,7 @@ body {
 }
 
 .parent {
+    width: 100%;
     opacity: 0.76;
 }
 
@@ -74,6 +80,15 @@ body {
     color: #FFFFFF;
     text-align: left;
 }
+
+.action-menu {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #354463;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
 
 @media (max-width: 1440px) {
     .header .wrapper {
@@ -114,7 +129,6 @@ body {
         background: transparent url("../Images/home-D-1.png") 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         height: 82vh;
-        width: 98.85vw;
     } 
     
     .parent .wrapper {
@@ -127,7 +141,7 @@ body {
     }
 
     .hero-tagline {
-        margin: 0 22em 8.5em 0;
+        margin: 0 0 18vh 0;
     }
     
     .issue-head {
@@ -139,7 +153,7 @@ body {
     }
 
     .message {
-        padding: 1em 3em 3.7em 3em;
+        padding: 2.5vh 3.5vw 8vh 3.5vw;
     }
     .message-text {
         font-size: 2.7vw;
@@ -154,6 +168,28 @@ body {
         font-size: 4vw;
     }
 
+    .action-menu .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 2vw;
+        padding: 9vh 0;
+    }
+    .action > h3 {
+        font-size: 1.8vw;
+        margin: 0;
+    }
+    .action > p {
+        font-size: 1.19vw;
+        margin: 0;
+    }
+    .action-head {
+        height: 5vh;
+        width: 10vw;
+        font-size: 1vw;
+        top: -2.5vh;
+        left: 45vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -198,7 +234,6 @@ body {
     .parent {
         background: transparent url("../Images/home-T-1.png") 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
-        width: 98vw;
         height: 82vh;
     }
     .parent .wrapper {
@@ -239,6 +274,29 @@ body {
     .message-link {
         font-size: 2vw;
     }
+
+    .action-menu .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 8vh;
+        grid-column-gap: 8.2vw; 
+        padding: 7.5vh 0;
+    }
+    .action > h3 {
+        font-size: 3.3vw;
+        margin-bottom: 1vh;
+    }
+    .action > p {
+        font-size: 2.4vw;
+    }
+    .action-head {
+        font-size: 1.8vw;
+        height: 6vh;
+        width: 20vw;
+        top: -3vh;
+        left: 39vw;
+    }
 }
 
 @media (max-width: 490px) {
@@ -247,13 +305,13 @@ body {
         grid-template-columns: 1.3fr 1fr;
         grid-template-rows: 1fr 1fr;
         height: 25vh;
-        grid-column-gap: 0.7em;
+        grid-column-gap: 21vw;
     }
 
     .logo {
         grid-area: 1/1/2/2;
         align-self: center;
-        padding-top: 1em;
+        padding-top: 3vh;
         font-size: 4vw;
     }
 
@@ -262,9 +320,8 @@ body {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 1fr; 
-        padding-left: 3em;
-        padding-top: 1em;
-        grid-gap: 0.5em;
+        padding-top: 2.5vh;
+        grid-gap: 1vh;
         font-size: 3vw;
     }
     .about {
@@ -290,7 +347,6 @@ body {
         background: transparent url('../Images/home-M-1.png') 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         height: 75vh;
-        width: 96.8vw;
     }
     .parent .wrapper {
         display: grid;
@@ -315,7 +371,7 @@ body {
         padding: 2.5vh 2.5vw 3vh 2.5vw;
     }
     .message-text {
-        font-size: 5.5vw;
+        font-size: 5.7vw;
         text-align: center;
     }
     .message-link {
@@ -329,4 +385,23 @@ body {
         padding-top: 0;
     }
 
+    .action-menu .wrapper {
+        grid-row-gap: 4vh;
+        grid-column-gap: 5vw; 
+        padding: 8.5vh 0;
+    }
+    .action > h3 {
+        font-size: 4vw;
+        margin-bottom: 1vh;
+    }
+    .action > p {
+        font-size: 3.3vw;
+    }
+    .action-head {
+        font-size: 3vw;
+        height: 6vh;
+        width: 34vw;
+        top: -3vh;
+        left: 32vw;
+    }
 }
