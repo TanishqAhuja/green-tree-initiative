@@ -35,7 +35,7 @@ body {
 .donate-btn {
     white-space: nowrap;
 }
-.donate-btn > button {
+button {
     background: #C1F7D5 0% 0% no-repeat padding-box;
     color: #354463;
     border-radius: 100px;
@@ -44,7 +44,7 @@ body {
     font-weight: bold;
 }
 
-.parent {
+.hero-section {
     width: 100%;
     opacity: 0.76;
 }
@@ -89,6 +89,41 @@ body {
     position: relative;
 }
 
+.what-we-do-section {
+    background: #354463 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.mission-head {
+    background: #FFFFFF;
+    color: #354463;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+}
+
+.mission {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: grid;
+    color: #354463;
+}
+
+.mission-1 .pic {
+    background: transparent url('../Images/tree-planting.png') 100% 100% no-repeat padding-box;
+    opacity: 1;
+}
+.mission-2 .pic {
+    background: transparent url('../Images/education-training.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.mission-3 .pic {
+    background: transparent url('../Images/advocacy.png') 100% 100% no-repeat padding-box;
+    opacity: 1;
+}
+.mission .pic{
+    background-size: 100% 100%;
+}
 
 @media (max-width: 1440px) {
     .header .wrapper {
@@ -125,13 +160,13 @@ body {
         font-size: 1.2vw;
     }
 
-    .parent {
+    .hero-section {
         background: transparent url("../Images/home-D-1.png") 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         height: 82vh;
     } 
     
-    .parent .wrapper {
+    .hero-section .wrapper {
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr;
@@ -190,6 +225,57 @@ body {
         top: -2.5vh;
         left: 45vw;
     }
+
+    .mission-head {
+        font-size: 1vw;
+        height: 5vh;
+        width: 10vw;
+        margin-top: 9vh;
+    }
+
+    .mission-text {
+        text-align: left;
+        font: bold 2.9vw Helvetica;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-top: 5vh;
+        margin-bottom: 12vh;
+    }
+    .mission-text > p {
+        margin: 0;
+    }
+
+    .missions {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 7vw;
+        margin-bottom: 13vh;
+    }
+
+    .mission {
+        grid-template-rows: 2fr 2fr 0.7fr;
+    }
+    .pic {
+        position: relative;
+        left: 2vw;
+        bottom: 3.7vh;
+    }
+    .subject {
+        text-align: left;
+        padding: 0 2vw;
+        font-size: 1.2vw;
+    }
+    .subject > h3 {
+        margin: 0;
+        font-size: 2vw;
+    }
+
+    .read-more-btn > button {
+        padding: 2vh 2vw;
+        font-size: 1.2vw;
+        margin-left: 2vw; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -231,12 +317,12 @@ body {
         font-size: 2.3vw;
     }
 
-    .parent {
+    .hero-section {
         background: transparent url("../Images/home-T-1.png") 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         height: 82vh;
     }
-    .parent .wrapper {
+    .hero-section .wrapper {
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
@@ -343,12 +429,12 @@ body {
         font-size: 4vw;
     }
 
-    .parent {
+    .hero-section {
         background: transparent url('../Images/home-M-1.png') 0% 0% no-repeat padding-box;
         background-size: 100% 100%;
         height: 75vh;
     }
-    .parent .wrapper {
+    .hero-section .wrapper {
         display: grid;
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
