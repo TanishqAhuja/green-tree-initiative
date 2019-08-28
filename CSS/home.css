@@ -125,6 +125,11 @@ button {
     background-size: 100% 100%;
 }
 
+.subject {
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
 @media (max-width: 1440px) {
     .header .wrapper {
         display: grid;
@@ -219,16 +224,16 @@ button {
         margin: 0;
     }
     .action-head {
-        height: 5vh;
+        padding: 2vh;
         width: 10vw;
-        font-size: 1vw;
+        font-size: 1.14vw;
         top: -2.5vh;
         left: 45vw;
     }
 
     .mission-head {
-        font-size: 1vw;
-        height: 5vh;
+        font-size: 1.2vw;
+        padding: 2vh;
         width: 10vw;
         margin-top: 9vh;
     }
@@ -269,6 +274,7 @@ button {
     .subject > h3 {
         margin: 0;
         font-size: 2vw;
+        font-weight: bold;
     }
 
     .read-more-btn > button {
@@ -378,10 +384,55 @@ button {
     }
     .action-head {
         font-size: 1.8vw;
-        height: 6vh;
-        width: 20vw;
+        padding: 2vh;
+        width: 16vw;
         top: -3vh;
         left: 39vw;
+    }
+
+    .mission-head {
+        font-size: 2vw;
+        width: 16vw;
+        padding: 2.2vh;
+    }
+
+    .mission-text {
+        font-size: 4.3vw;
+    }
+
+    .missions {
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: 1fr;
+        margin-bottom: 9vh;
+    }
+
+    .mission {
+        grid-template-columns: 0.90fr 1.10fr;
+        grid-template-rows: 1.44fr 0.56fr;
+    }
+    .pic {
+        left: 3.5vw;
+    }
+    .subject {
+        grid-area: 1/2/3/3;
+        padding: 4vh 3.5vw 4vh 7vw;
+    }
+    .subject > h3 {
+        font-size: 3.5vw;
+    }
+    .subject > p {
+        font-size: 2.45vw;
+    }
+
+    .read-more-btn {
+        text-align: right;
+    }
+    .read-more-btn > button {
+        font-size: 2.3vw;
+        padding: 1.7vh 3.4vw;
+        margin: 0;
+        position: relative;
+        right: -3.5vw;
     }
 }
 
