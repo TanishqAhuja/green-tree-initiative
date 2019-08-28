@@ -276,11 +276,14 @@ button {
         font-size: 2vw;
         font-weight: bold;
     }
+    .subject > p {
+        margin-bottom: 3vh;
+    }
 
     .read-more-btn > button {
         padding: 2vh 2vw;
         font-size: 1.2vw;
-        margin-left: 2vw; 
+        margin-left: 2vw;
     }
 }
 
@@ -387,7 +390,8 @@ button {
         padding: 2vh;
         width: 16vw;
         top: -3vh;
-        left: 39vw;
+        margin-left: 50%;
+        left: -10vw;
     }
 
     .mission-head {
@@ -430,9 +434,7 @@ button {
     .read-more-btn > button {
         font-size: 2.3vw;
         padding: 1.7vh 3.4vw;
-        margin: 0;
-        position: relative;
-        right: -3.5vw;
+        margin-right: -3.5vw;
     }
 }
 
@@ -536,9 +538,68 @@ button {
     }
     .action-head {
         font-size: 3vw;
-        height: 6vh;
+        padding: 2.3vh;
         width: 34vw;
         top: -3vh;
-        left: 32vw;
+        margin-left: 50%;
+        left: -20vw; 
+    }
+
+    .mission-head {
+        font-size: 3.1vw;
+        width: 34vw;
+        margin-top: 7vh;
+        margin-left: 19vw;
+    }
+
+    .mission-text {
+        text-align: center;
+        font-size: 5.4vw;
+        margin-top: 3vh;
+        margin-bottom: 11vh; 
+    }
+
+    .missions {
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 13vh;
+        margin-bottom: 8vh;
+    }
+
+    .mission {
+        grid-template-rows: 1.3fr 1fr 0.5fr;
+        grid-template-columns: 1fr;
+        padding: 0 7vw;
+        text-align: center;
+    }
+    .pic {
+        grid-area: 1/1/2/2;
+        left: 0;
+        top: -7vw;
+    }
+
+    .subject {
+        grid-area: 2/1/3/2;
+        padding: 0;
+        text-align: center;
+    }
+    .subject > h3 {
+        font-size: 4.7vw;
+        font-weight: bold;
+    }
+    .subject > p {
+        font-size: 3.7vw;
+    }
+
+    .read-more-btn {
+        grid-area: 3/1/4/2;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4vh;
+    }
+    .read-more-btn > button {
+        margin: 0;
+        font-size: 4vw;
+        padding: 1.7vh 7vw;
     }
 }
