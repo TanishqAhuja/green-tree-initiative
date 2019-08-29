@@ -307,9 +307,11 @@ button {
         font-size: 4vw;
         padding: 2vh 19vw 5vh 0;
     }
+
     .take-action-btn > button {
         font-size: 1.4vw;
         padding: 1vh 2vw;
+        font-weight: bold;
     }
 
     .facts {
@@ -322,7 +324,7 @@ button {
         grid-template-columns: 3fr 1fr;
         grid-template-rows: 1fr 1fr;
         background: #FFFFFF;
-        padding: 6vh 4vw;
+        padding: 7vh 4vw;
         font-family: Arial, Helvetica, sans-serif;
     }
     .fact-1 {
@@ -358,7 +360,9 @@ button {
         border-radius:50% 50% 50% 50%;
         text-align: center;
         margin: 1vh 2.5vw;
-        padding-top: 1vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -375,6 +379,7 @@ button {
         grid-area: 1/1/2/2;
         align-self: flex-end;
         font-size: 2.6vw;
+        padding-top: 2vh;
     }
 
     .menu {
@@ -510,6 +515,57 @@ button {
         font-size: 2.3vw;
         padding: 1.7vh 3.4vw;
         margin-right: -3.5vw;
+    }
+
+    .facts-section {
+        background: transparent url('../Images/home-T-3.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        background-size: 100% 100%; 
+    }
+
+    .facts-section .wrapper {
+        display: grid;
+        grid-template-columns: 0.6fr 1.4fr;
+        padding: 10vh 0;
+    }
+
+    .facts-tagline {
+        font-size: 5vw;
+        padding: 0 12vw 4vh 0;
+    }
+
+    .take-action-btn > button {
+        padding: 2vh 4vw;
+        font-size: 2.3vw;
+    }
+
+    .facts {
+        grid-gap: 6vh;
+    }
+    .fact {
+        padding: 5vh 4vw;
+    }
+    .fact-head {
+        font-size: 2vw;
+        padding: 2vh 2vw;
+        top: -3.4vh;
+    }
+
+    .sub-1 > h3 {
+        font-size: 4.5vw;
+    }
+    .sub-2 > p {
+        font-size: 2vw; 
+        line-height: 4vh; 
+    }
+
+    .icon-1 {
+        margin-top: 0; 
+        margin-bottom: 2vh; 
+    }
+    .icon-2 {
+        margin-bottom: 0;
+        margin-top: 2vh;
     }
 }
 
