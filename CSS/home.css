@@ -733,4 +733,47 @@ button {
         font-size: 4vw;
         padding: 1.7vh 7vw;
     }
+
+    .facts-section {
+        background: transparent url('../Images/home-M-3.png') 0% 0% no-repeat padding-box;
+        background-size: 100% 100%;
+    }
+
+    .facts-section .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        padding: 12vh 0 7vh 0;
+        grid-gap: 4vh;
+    }
+    
+    .facts-tagline {
+        font-size: 10vw;
+    }
+
+    .take-action-btn > button {
+        font-size: 3.7vw;
+    }
+
+    .fact {
+        padding: 7vw;
+    }
+    .fact-head {
+        font-size: 3vw;
+        padding: 2.5vh 3vw;
+        left: 23vw;
+        top: -4vh;
+    }
+    .sub-1 > h3 {
+        font-size: 6vw;
+    }
+    .sub-2 > p {
+        font-size: 3.3vw;
+    }
+
+    .icon {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 0.5vh;
+    }
 }
