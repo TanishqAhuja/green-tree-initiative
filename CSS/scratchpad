@@ -13,3 +13,6 @@ menu {
     grid-auto-flow: column;
         align-items: center;
 }
+
+
+input type="number" id="cvc" placeholder="CVC" pattern="[0-9]*" max="999"

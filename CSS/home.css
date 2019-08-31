@@ -7,6 +7,11 @@ body {
     src: url("../Fonts/FloodStd.otf") format("opentype");             
 }
 
+a {
+    text-decoration: none;
+    color: #354463
+}
+
 .wrapper {
     width: 80%;
     margin: auto;
@@ -26,10 +31,6 @@ body {
     display: grid;
     font-weight: lighter;
     white-space: nowrap;
-}
-.menu-option > a {
-    text-decoration: none;
-    color: #354463;
 }
 
 .donate-btn {
@@ -167,6 +168,7 @@ button {
 
     .hero-section {
         background: transparent url("../Images/home-D-1.png") 0% 0% no-repeat padding-box;
+        background-color: #354463;
         background-size: 100% 100%;
         height: 82vh;
     } 
@@ -408,6 +410,7 @@ button {
 
     .hero-section {
         background: transparent url("../Images/home-T-1.png") 0% 0% no-repeat padding-box;
+        background-color: #354463;
         background-size: 100% 100%;
         height: 82vh;
     }
@@ -615,6 +618,7 @@ button {
 
     .hero-section {
         background: transparent url('../Images/home-M-1.png') 0% 0% no-repeat padding-box;
+        background-color: #354463;
         background-size: 100% 100%;
         height: 75vh;
     }

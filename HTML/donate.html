@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Donation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/donate.css">
+</head>
+
+<body>
+    <header class="header">The Green<br>Trees Initiative</header>
+    <div class="container">
+        <form>
+            <div class="form">
+                <div class="personal-info">
+                    <fieldset class="field-1">
+                        <legend>Your information</legend>
+                        <div class="wrapper-1">
+                            <div class="name">
+                                <div>
+                                    <label for="f-name">FIRST NAME</label>
+                                    <input type="text" id="f-name" placeholder="First name">
+                                </div>
+                                <div>
+                                    <label for="l-name">LAST NAME</label>
+                                    <input type="text" id="l-name" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="address">
+                                <div class="street">
+                                    <label for="st-address">STREET ADDRESS</label>
+                                    <input type="text" id="st-address" placeholder="Street address">
+                                </div>
+                                <div class="cities">
+                                    <label for="city">CITY</label>
+                                    <input type="text" id="city" placeholder="City name">
+                                </div>
+                                <div class="small-box">
+                                    <div class="states">
+                                        <label for="state">STATE</label>
+                                        <select name="state" id="state">
+                                            <option value="Alabama">AL</option>
+                                            <option value="Michigan">MI</option>
+                                            <option value="New York">NY</option>
+                                        </select>
+                                    </div>
+                                    <div class="code">
+                                        <label for="zip">ZIP CODE</label>
+                                        <input type="number" id="zip" placeholder="Zip code" max="99999">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mail">
+                                <label for="email">EMAIL ADDRESS</label>
+                                <input type="text" id="email" placeholder="Email address">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="payment-info">
+                    <fieldset class="field-2">
+                        <legend>Payment information</legend>
+                        <div class="wrapper-2">
+                            <div class="card-no">
+                                <label for="c-no">CREDIT CARD NUMBER</label>
+                                <input type="text" id="c-no" placeholder="Credit card number">
+                            </div>
+                            <div class="card-details">
+                                <div class="expiry">
+                                    <div>
+                                        <label>EXPIRATION</label>
+                                        <input type="number" id="exp-month" placeholder="MM" min="01" max="12">
+                                    </div>
+                                    <div>
+                                        <label style="color: #354463">.</label>
+                                        <input type="number" id="exp-year" placeholder="YYYY">
+                                    </div>
+                                </div>
+                                <div class="security">
+                                    <div class="sec-code">
+                                        <label for="cvc">SECURITY CODE</label>
+                                        <input type="number" id="cvc" placeholder="CVC">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <span class="statement">Click the button to confirm your donation of $10, recurring monthly.</span>
+                <div class="navigation">
+                    <div class="home-link">
+                        <a href="./home.html">Go back</a>
+                    </div>
+                    <div class="proceed-link">
+                        <button><a href="#">Process Payment</a></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="tagline">GIVE HOPE TO THOSE WHO NEED IT MOST</div>
+    </div>
+    <footer>
+        <div class="logo"><a href="home.html">The Green<br>Trees Initiative</a></div>
+        <div class="access contacts">
+            <span class="heading">CONTACT US</span>
+            <hr>
+            <p>
+                123 Anywhere St.
+                Cityname, NY 11206
+                (123) 456-7890
+                contact@ngo.com
+            </p>
+        </div>
+        <nav class="access links">
+            <span class="heading">LINKS</span>
+            <hr>
+            <ul>
+                <li><a href="home.html#the-issue">The issue</a></li>
+                <li><a href="home.html#about-us">How we help</a></li>
+                <li>Get involved</li>
+                <li>Latest news</li>
+            </ul>
+        </nav>
+        <nav class="access follow">
+            <span class="heading">FOLLOW US</span>
+            <hr>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instgram</a></li>
+                <li><a href="https://medium.com">Medium</a></li>
+            </ul>
+        </nav>
+        <div class="slogan">#STOP CLIMATE CHANGE</div>
+    </footer>
+</body>
+
+</html>
