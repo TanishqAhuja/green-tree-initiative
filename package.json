@@ -1,0 +1,26 @@
+{
+  "name": "green-tree-initiative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanishqAhuja/green-tree-initiative.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanishqAhuja/green-tree-initiative/issues"
+  },
+  "homepage": "https://github.com/TanishqAhuja/green-tree-initiative#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
